@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOOS Marine Observation Station</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IOOS Marine Station</h1>
+        <p class="subtitle">Direct ERDDAP Portal: Real-Time Scientific Ocean Observations</p>
+        
+        <button id="fetch-btn">Query Marine Grid</button>
 
+        <div class="dashboard">
+            <div class="card">
+                <h3>Sea Surface Temp</h3>
+                <p id="temp">-- °C</p>
+            </div>
+            <div class="card">
+                <h3>Chlorophyll Concent.</h3>
+                <p id="chlorophyll">-- mg/m³</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
